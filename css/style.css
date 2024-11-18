@@ -88,3 +88,97 @@ section.servico ul li p {
     background-color: #3B8686;
     padding: 10px 15px 10px 15px;
 }
+
+
+/*===========================
+          NÚMEROS
+==============================*/
+
+section.numeros {
+    padding: 4vw;
+    background: linear-gradient(rgba(121,189,154,0.2),rgba(121,189,154,0.2)), url(../imagens/back-numeros.png) no-repeat center;
+    background-size: cover;
+}
+section.numeros ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 4vw 0 0 ;
+}
+section.numeros ul li {
+    color: white;
+    font-size: 2rem;
+    padding: 2vw 0 0 2vw;
+    line-height: 2.5vw;
+    margin: 0 0 0 8vw;
+    
+}
+section.numeros ul li p {
+    font-size: 3.5rem;
+}
+section.numeros ul li h3 {
+    text-align: center;    
+}
+
+
+/*===========================
+          POSSIBILIDADE
+==============================*/
+
+
+section.poss {
+    margin: 2vw 0 0 5vw;
+    padding: 4vw;
+}
+section.poss {
+    display: flex;
+}
+section.poss  h1 {
+    font-size: 2rem;
+    color: #0B486B;
+    margin: 0 0 2vw 0 
+}
+section.poss div.div1 p {
+    width: 65%;
+    line-height: 1.5vw;
+    color: #747474;
+}
+
+section.poss div.div1 p button {
+    color: white;
+    background-color: #0B486B;
+    padding: 15px;
+    margin: 2vw 0 0 0;
+}
+
+section.poss div.div2  {
+    padding: 0 10vw 0 0;
+}
+
+/*===========================
+          FOOTER
+==============================*/
+
+
+footer{
+    background-color: #3B8686;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2vw;
+}
+footer span{
+    font-size: 2vw;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+footer div{
+    color: white;
+}
+footer div.espaco{
+    
+    text-align: right;
+    
+}
+footer p{
+    padding: 11px;
+}
